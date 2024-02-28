@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+.heading{
+@apply text-gray-400 tracking-widest lg:text-lg md:text-base sm:text-lg xsm:text-lg text-[15px] uppercase text-center my-2
+}
+.btn-primary{
+    @apply bg-black text-white w-full rounded my-5 py-2
+}
+
+@tailwind utilities;
